@@ -1,0 +1,55 @@
+[-h] [-l {user,host}] [-r RHOST]
+                     [-t {daily,weekly,monthly}] [-u USER] [-v]
+                     F [F ...]
+
+Usage Report based on the last command
+
+positional arguments:
+  F                     list of files to be processed
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l {user,host}, --list {user,host}
+                        generate user name or remote host IP from the given
+                        files
+  -r RHOST, --rhost RHOST
+                        usage report for the given remote host IP
+  -t {daily,weekly,monthly}, --type {daily,weekly,monthly}
+                        type of report: daily, weekly, and monthly
+  -u USER, --user USER  usage report for the given user name
+  -v, --verbose         tune on output verbosity
+
+asmith
+cwsmith
+rchan
+tsliu2
+
+10.40.105.130
+10.40.91.236
+10.40.91.247
+10.43.115.162
+
+2018 02 15        1980
+2018 02 13        1580
+Total             3560
+
+2018 03 13        2280
+2018 02 14        3047
+2018 02 15        7883
+Total            13210
+
+2018 02 13        7969
+2018 02 14        3047
+2018 02 15        7883
+Total            18899
+
+2018 07           3560
+Total             3560
+
+2018 11           2280
+2018 07          10930
+Total            13210
+
+2018 07          18899
+Total            18899
+
